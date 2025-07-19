@@ -1,0 +1,554 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    cursor: url("images/mouse\ \(1\).png"), auto;
+   
+   
+}
+
+.MainContainer{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* position: relative; */
+   
+}
+
+
+
+
+
+
+
+/* continer1 */
+.container1{
+    /* border: 1px solid blue; */
+    width: 40%;
+    margin-left: 50px;
+
+}
+
+.subContainer1{
+    /* border: 1px solid white; */
+    position: sticky;
+    top: 0;
+
+}
+
+
+
+
+
+
+/* container1a */
+.container1a{
+    /* border: 5px solid red; */
+    /* padding: 20px; */
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileContainer{
+    /* border: 5px solid red; */
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+
+}
+
+.profile{
+    background-color: #000000;
+    /* border: 2px solid rgb(255, 255, 255); */
+   
+    border-radius: 20px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.profileImg{
+    background-color: #000000;
+}
+
+
+.myImage{
+    height: 210px;
+    width: 160px;
+    border-radius: 50%;
+}
+.profileData{
+    padding-left: 30px;
+    background-color: #000000;
+}
+.profileData h3{
+    /* border: 1px solid white; */
+    display: flex;
+    /* justify-content: center; */
+    align-self: center;
+    background-color: #000000;
+    color: rgb(230, 230, 230);
+    font-family: "Cormorant Garamond, sans-serif";
+    font-weight: 500;
+    padding: 5px 0;
+    font-size: 20px;
+
+}
+
+.profileData img{
+    background-color: #000000;
+    height: 32px;
+    padding-right: 10px;
+}
+
+.wt{
+    background-color: #000000;
+    color: rgb(248, 248, 248);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid white; */
+}
+
+
+
+.card2{
+    background-image: url(images/card2bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 102%;
+}
+
+
+
+
+
+
+
+/* container1b */
+.container1b{
+    /* border: 10px solid green; */
+    height: 50vh;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.slider-wrapper {
+  overflow: hidden;
+  max-width: 1200px;
+  /* margin: 0 70px 55px; */
+  backdrop-filter: blur(3px);
+  height: 100%;
+}
+
+.card-list{
+
+    backdrop-filter: blur(3px);
+    /* height: 100%; */
+}
+.card-list .card-item {
+  /* height: 100%; */
+  color: #fff;
+  user-select: none;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  backdrop-filter: blur(3px);
+  background: rgba(255, 255, 255, 0.2);
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255);
+  text-align: center;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.card-list .card-item .user-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 40px;
+  /* border: 3px solid #fff; */
+  padding: 4px;
+}
+
+
+.user-name{
+    font-family: "M PLUS 1", sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+    background: transparent;
+}
+.card-list .card-item .user-profession {
+  font-size: 1.15rem;
+  color: #e3e3e3;
+  font-weight: 500;
+  margin: 14px 0 40px;
+}
+.card-list .card-item .message-button {
+  font-size: 1.25rem;
+  padding: 10px 35px;
+  color: #030728;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  background: #fff;
+  border: 2px solid purple;
+  transition: 0.2s ease;
+}
+.card-list .card-item .message-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  background: #54245e;
+  /* border: 1px solid #fff; */
+  color: #fff;
+}
+.slider-wrapper .swiper-pagination-bullet {
+  background: #fff;
+  height: 13px;
+  width: 13px;
+  opacity: 0.5;
+}
+.slider-wrapper .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+.slider-wrapper .swiper-slide-button {
+  color: #fff;
+  /* margin-top: -55px; */
+  transition: 0.2s ease;
+  background: transparent;
+}
+.slider-wrapper .swiper-slide-button:hover {
+  color: #b400ff;
+}
+
+.swiper{
+    /* border: 3px solid rgb(16, 252, 16); */
+    width: 100%;
+    height: 100%;
+    background: transparent;
+}
+/* @media (max-width: 768px) {
+  .slider-wrapper {
+    margin: 0 10px 40px;
+  }
+  .slider-wrapper .swiper-slide-button {
+    display: none;
+  }
+}  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:770px){
+    .container1{
+        margin-left: 0;
+    }
+    .MainContainer{
+        display: block;
+    }
+
+    .container2{
+        z-index: 100;
+    }
+    .subContainer1{
+        margin: 100px 0;
+    }
+
+    .container1a{
+        height: 70vh;
+
+    }
+    .profile{
+        /* border: 2px solid red; */
+        display: block;
+        border-radius: 10px;
+       
+    
+    }
+    .profileImg{
+        text-align: center;
+        border-radius: 10px;
+        padding-top: 22px;
+    }
+    .profileContainer{
+        height: 110%;
+    }
+
+}
+
+
+
+
+@media (min-width:770px) and (max-width:1025px){
+    .container1{
+        margin-left: 20px;
+    }
+    .profileContainer{
+        padding: 20px;
+    }
+
+    .myImage{
+        height: 170px;
+        width: 120px;
+        border-radius: 50%;
+    }
+
+    .profileData h3{
+        font-size: 15px;
+    }
+
+    .profileData img {
+        background-color: #000000;
+        height: 20px;
+        padding-right: 9px;
+    }
+
+    .user-name{
+        font-size: 1.1rem;
+    }
+
+}
+
+@media screen and (max-width:430px){
+    .profileData h3{
+        font-size: 18px;
+    }
+
+    .myImage{
+        height: 150px;
+        width: 120px;
+        border-radius: 50%;
+    }
+
+    .profileData img {
+        background-color: #000000;
+        height: 30px;
+        padding-right: 10px;
+    }
+
+    .container1a{
+        height: 62vh;
+    }
+
+    .user-name{
+        font-size: 1.1rem;
+    }
+
+    .profiledata img{
+        height: 28px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* containe2 */
+
+.container2{
+    /* border: 1px solid rgb(6, 6, 20); */
+    width: 60%;
+}
+
+.projects{
+    /* border: 1px solid rgb(121, 14, 14); */
+    height: 100vh;
+    padding: 80px;
+
+}
+
+.project{
+    /* border: 1px solid blue; */
+    height: 100%;
+    display: flex;
+    background: #ffe5e5;
+    border-radius: 20px;
+    box-shadow: 0 10px 8px 10px rgba(20, 2, 2, 0.2), 0 6px 20px 0 rgba(54, 4, 4, 0.19);
+    
+}
+
+.projectImg{
+    /* border: 1px solid green; */
+    background-color: #ffe5e5;
+    border-radius: 20px 0px 0px 20px;
+    width: 60%;
+    height: 100%;   
+    padding-top: 20%;
+}
+
+.projectData{
+    /* border: 1px solid green; */
+    background-color: #ffe5e5;
+    border-radius: 0px 20px 20px 0px;
+    width: 40%;
+    height: 100%;  
+    padding: 20px;
+    padding-top: 25%; 
+}
+
+.image1{
+    width: 100%;
+}
+
+.image1a{
+    width: 65px;
+    height: 65px;
+    border-radius: 10px;
+}
+.project h2{
+    background-color: transparent;
+    color: black;
+    font-family: "Cormorant Garamond, sans-serif";
+    font-weight: 500;
+    font-style: normal;
+    padding: 20px 0;
+    font-size: 2rem;
+    
+}
+
+.project a,p{
+    background-color: transparent;
+    color: rgb(113 68 68);
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    cursor: pointer;
+
+}
+
+
+.image2a{
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+
+
+
+.image3a{
+    width: 100px;
+    height: 50px;
+}
+
+
+
+@media (max-width:770px){
+    .container{
+        /* border: 1px solid red; */
+
+        display: flex;
+        flex-direction: column;
+  
+       
+    }
+
+    .container1{
+        width:100% ;
+    }
+
+
+
+    /* container2 */
+    .container2{
+        width: 100%;
+    }
+
+    .projects{
+
+        padding: 20px;
+    }
+
+    .project{
+        display: flex;
+        flex-direction:column;
+    }
+
+    .projectImg{
+        width: 95%;
+        height: 100%;
+        padding-top: 9%;
+        text-align: center;
+    }
+    .image1{
+        /* border: 1px solid green; */
+        width: 25rem;
+    }
+
+    .projectData{
+        width: 90%;
+        padding-top: 0%;
+        margin-left: 30px;
+    }
+    .image1a{
+        width: 50px;
+        height: 50px;
+    }
+
+
+
+
+}
+
+
+
+@media screen and (max-width:480px){
+   .image1{
+    width: 19rem;
+    height: 75%;
+   }
+   .projectImg {
+    width: 89%;
+    height: 80%;
+    padding-top: 10%;
+    text-align: center;}
+
+    .projects{
+        padding: 30px;
+    }
+}
+
+@media (min-width:770px) and (max-width:1025px){
+    .projects{
+        padding: 50px;
+    }
+
+}
+
+@media (min-width:460px) and (max-width:770px){
+    .projects{
+        padding: 50px;
+    }
+
+}
